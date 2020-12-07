@@ -13,7 +13,7 @@
     <link href="newcss1.css" rel="stylesheet" media="all">
 </head>
 
-<body>
+<body style="background-image:url('images/hire.png');">
     <header>
         <nav>
             <h1>ORZ Corp.</h1>

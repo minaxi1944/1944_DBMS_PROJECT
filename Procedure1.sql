@@ -1,0 +1,7 @@
+DELIMITER $$
+
+CREATE PROCEDURE Gett()
+BEGIN
+	SELECT *
+	FROM employee;
+    END$$

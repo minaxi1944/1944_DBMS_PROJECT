@@ -7,7 +7,7 @@
 <body id="b1">
 	<header>
 		<nav>
-			<h1>XYZ Corp.</h1>
+			<h1>ORZ Corp.</h1>
 			<ul id="menu1">
 				<li><a class="homeblack" href="index.php">HOME</a></li>
 				<li><a class="homered" href="Elogin.php">Employee Login</a></li>
@@ -19,7 +19,7 @@
 	<div class="divider"></div>
 
 	<div class="loginbox">
-    <img src="images/avatar.png" class="avatar">
+            <img src="images/avatar.png" class="avatar">
         <h1>Employee Login</h1>
         <form action="eprocess.php" method="POST">
             <p>Email</p>

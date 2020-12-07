@@ -2,7 +2,7 @@
 
 <html>
 <head>
-	<title>XYZ Corporation</title>
+	<title>ORZ Corporation</title>
 	<link rel="stylesheet" type="text/css" href="newcss1.css">
 </head>
 <body>
@@ -24,12 +24,12 @@
 	</div>
 
 	
-	<img src="images/hire.png" width="900px",height="800px" style="float: left; margin-right: 100px; margin-top: 35px; margin-left: 70px">
+	<img src="images/hire.png" width="800px",height="700px" style="float: left; margin-right: 100px; margin-top: 35px; margin-left: 70px">
 	
 
 	<div style="margin-top: 175px">
 		
-		<h1 style="font-family: 'Lobster', cursive; font-weight: 200; font-size: 50px; margin-top: 100px; text-align: center;">Welcome to ORZ Corp.</h1>
+		<h2 style="font-family: 'Lobster', cursive;color:'black'; font-weight: 200; font-size: 50px; margin-top: 100px; text-align: center;">Welcome to ORZ Corp.</h2>
 	</div>
 		
 
