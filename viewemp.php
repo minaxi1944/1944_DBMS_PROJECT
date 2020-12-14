@@ -13,10 +13,11 @@ $result = mysqli_query($conn, $sql);
 <html>
 <head>
 	<title>View Employee |  Admin Panel | ORZ Corporation</title>
-	 <link rel="stylesheet" type="text/css" href="newcss1.css">
+	 <link rel="stylesheet" type="text/css" href="newcss01.css">
+         
 </head>
-<body>
-	<header>
+<body style="background: linear-gradient(to right, #c31432, #240b36);">
+ 	<header>
 		<nav>
 			<h1>ORZ Corp.</h1>
 			<ul id="menu1">
@@ -27,7 +28,17 @@ $result = mysqli_query($conn, $sql);
 	</header>
 	
 	<div class="divider"></div>
-        <div class="d1"></div>		
+        <div class="d1"></div>	
+        <div class="alert">
+            
+<button onclick="myFunction()">Try it</button>
+
+ <script>
+function myFunction() {
+  alert("Hello! I am an alert box!");
+}
+</script>
+</div>
         <table>
 			<tr>
 
@@ -47,11 +58,11 @@ $result = mysqli_query($conn, $sql);
                                 <th align = "center">Project</th>
 			</tr>
 
-			<?php
+                         	<?php 
 				while ($employee = mysqli_fetch_assoc($result)) {
 					echo "<tr>";
 					echo "<td>".$employee['empid']."</td>";
-					echo "<td>".$employee['empnm'].$employee['lastnm']."</td>";
+					echo "<td>".$employee['empnm']."  ".$employee['lastnm']."</td>";
 					echo "<td>".$employee['address']."</td>";
 					
 					echo "<td>".$employee['email']."</td>";

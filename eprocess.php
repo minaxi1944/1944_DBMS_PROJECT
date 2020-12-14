@@ -24,7 +24,7 @@ if(mysqli_num_rows($result) == 1){
 	echo ("window.alert('logged in')");
 	//echo ("$empid");
 	
-	header("Location: eloginwell.php?id=$empid");
+	header("Location: emploginwell.php?id=$empid");
 }
 else{
 	echo ("<SCRIPT LANGUAGE='JavaScript'>

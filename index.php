@@ -3,9 +3,9 @@
 <html>
 <head>
 	<title>ORZ Corporation</title>
-	<link rel="stylesheet" type="text/css" href="newcss1.css">
+	<link rel="stylesheet" type="text/css" href="newcss01.css">
 </head>
-<body>
+<body style=" background: linear-gradient(to right, #240b36,white);">
 	<header>
 		<nav>
 			<h1>ORZ Corp.</h1>

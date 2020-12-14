@@ -2,7 +2,16 @@
 <html>
 <head>
 	<title>Log In | XYZ Corporation</title>
-        <link rel="stylesheet" type="text/css" href="newcss1.css">
+        <link rel="stylesheet" type="text/css" href="newcss01.css">
+        <style>
+            body{
+                  background: url(http://www.shukatsu-note.com/wp-content/uploads/2014/12/computer-564136_1280.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+            } 
+
+        </style>
 </head>
 <body id="b1">
 	<header>
