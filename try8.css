@@ -1,0 +1,28 @@
+#seventh {
+  background: -moz-element(#snake), linear-gradient(45deg, transparent 20px, blue 20px, blue 30px, transparent 30px) white;
+  background-size: 60px 60px;
+  background-color: white;
+}
+
+#snake {
+  color: transparent;
+  text-shadow: 0 0 lime, 1px 1px white;
+  width: 30px;
+  height: 30px; 
+  mix-blend-mode: multiply;
+}
+
+.patterns {
+  width: 300px; height: 300px;
+  margin: auto; border: 40px white solid;
+}
+
+body { background: black; font-family: 'crimson text';}
+
+h2 { margin: auto; margin-top: 60px; width: 370px; text-align: right; background: yellow; padding-right: 10px;  }
+
+.msg {margin-top: 120px; text-align: center; }
+
+@supports not ((background: element(#snake)) or (background: -moz-element(#snake))){
+  #seventh .msg {display: block;}
+}
